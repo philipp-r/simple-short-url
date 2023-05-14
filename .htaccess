@@ -1,0 +1,5 @@
+<IfModule mod_rewrite.c>
+	RewriteEngine On
+	RewriteBase /
+	RewriteRule ^(\w+)$ index.php?s=$1 [L]
+</IfModule>
